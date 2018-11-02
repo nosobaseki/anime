@@ -1,0 +1,143 @@
+header        {background-color:#111111;}
+body          {background-color:#111111;}
+
+
+h2           {background-color: #ffc119;}
+section      {background-color: #ffc119;
+              font-family: myFirstFont, MyFont_IE, Tahoma, Geneva, sans-serif;}
+h1, h2, h3, h4, h5, h6 {padding: 0;margin: 0;font-size: 14px;color: #ffc119;}
+a:hover {text-decoration: none}
+img {border: 0;margin: 0;padding: 0}
+}
+
+
+}
+
+
+
+ {
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 
+    margin-right: 16px;
+    font-size: 17px;
+    width:80%;
+    color:#A9A9A9;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50)}
+
+div a  {;
+        text-decoration: none;
+      color:#ffc119;
+       font-size: 13px;}
+div li {display: flex;
+                  flex-wrap: wrap; }                                                                                               }
+
+
+
+img              { display: f;
+                  flex-flow: row wrap  }     
+
+.flex-item {
+  
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;}
+
+
+  .flex-container {
+  padding: 0 9px;
+  margin: 0;
+  list-style: none;
+  border: 30px #111111;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow:  wrap;
+   float:left;
+    }
+}                 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -mos-box-sizing: border-box;}
+
+    #wrapper  { background-color:##111111;
+            margin-left:auto;
+            margin-right:auto;
+            width: 80%; 
+            min-width:900px;
+            max-width:1280px;
+            box-shadow: 5px 5px;}
+}                                
+.lefter    {float: right}
+.flexer   {
+  display: flex;
+  flex-direction: row;}
+
+  .myImage {
+  float: left;
+  height: 75px;
+  width: 235px;
+  font-family: Veranda;}
+  .heading {
+  float:right;}
+
+  .vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.flex-container-wrap
+   { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+ flex-flow: nowrap;
+ background-position: top-right}
+
+  div li {color:#ffc119;}
+
+  .pagination {
+    display: inline-block;
+    float: right
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;}
+.pagination a:hover:not(.active) {background-color: #4CAF50;}
+
